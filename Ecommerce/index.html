@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="#">
+                <img src="logo.jpg" alt="Logo" class="logo-img">
+                FantasyLibrary
+            </a>
+        </div>
+        <ul class="navbar-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><button id="verCarrito">Carrito</button></li>
+        </ul>
+    </nav>
+
+    <!-- Contenedor de productos -->
+    <div class="product-container">
+        <!-- Tarjeta de Producto -->
+        <div class="product-card">
+            <img src="producto1.jpg" alt="El imperio final">
+            <h3 class="product-title">El imperio final</h3>
+            <p class="product-description">Una historia de revolución y magia en un mundo dominado por el Lord Legislador. Primer libro de la saga Nacidos de la Bruma.</p>
+            <p class="product-price"><span class="precio">19.99</span>€</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+    
+        <div class="product-card">
+            <img src="producto2.jpg" alt="Amanecer rojo">
+            <h3 class="product-title">Amanecer rojo</h3>
+            <p class="product-description">En una sociedad marcial basada en castas, Darrow debe infiltrarse entre los poderosos para cambiar el destino de su mundo.</p>
+            <p class="product-price"><span class="precio">18.50</span>€</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+    
+        <div class="product-card">
+            <img src="producto3.jpg" alt="El problema de los 3 cuerpos">
+            <h3 class="product-title">El problema de los 3 cuerpos</h3>
+            <p class="product-description">Una obra maestra de la ciencia ficción china que plantea una invasión alienígena desde una perspectiva científica compleja.</p>
+            <p class="product-price"><span class="precio">22.00</span>€</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+    
+        <div class="product-card">
+            <img src="producto4.jpg" alt="El límite del cielo">
+            <h3 class="product-title">El límite del cielo</h3>
+            <p class="product-description">Una aventura épica en un mundo flotante lleno de secretos, con giros sorprendentes en cada página.</p>
+            <p class="product-price"><span class="precio">21.99</span>€</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+    
+        <div class="product-card">
+            <img src="producto5.jpg" alt="La guerra de la amapola">
+            <h3 class="product-title">La guerra de la amapola</h3>
+            <p class="product-description">Una novela oscura de fantasía sobre guerra, magia y el precio del poder. Inspirada en la historia de China.</p>
+            <p class="product-price"><span class="precio">20.00</span>€</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+    
+        <div class="product-card">
+            <img src="producto6.jpg" alt="El camino de los reyes">
+            <h3 class="product-title">El camino de los reyes</h3>
+            <p class="product-description">El primer libro de la aclamada saga El Archivo de las Tormentas, donde el destino del mundo está en manos de unos pocos.</p>
+            <p class="product-price"><span class="precio">24.99</span>€</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+    
+        <div class="product-card">
+            <img src="producto7.jpg" alt="Guerra de jade">
+            <h3 class="product-title">Guerra de jade</h3>
+            <p class="product-description">Una novela de fantasía urbana llena de intriga, poder y violencia en una ciudad controlada por la mística piedra de jade.</p>
+            <p class="product-price"><span class="precio">17.50</span>€</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+    
+        <div class="product-card">
+            <img src="producto8.jpg" alt="Nuncanoche">
+            <h3 class="product-title">Nuncanoche</h3>
+            <p class="product-description">Una oscura historia de venganza, ambientada en un mundo donde las sombras y la muerte caminan de la mano.</p>
+            <p class="product-price"><span class="precio">19.50</span>€</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+    
+        <div class="product-card">
+            <img src="producto9.jpg" alt="El café de las leyendas">
+            <h3 class="product-title">El café de las leyendas</h3>
+            <p class="product-description">Un acogedor café donde héroes, dioses y criaturas legendarias se reúnen para contar sus historias. Un tributo a la mitología y la fantasía.</p>
+            <p class="product-price"><span class="precio">16.99</span>€</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+    </div>
+    
+
+    <!-- Formulario de Contacto -->
+    <div class="form-container">
+        <form action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7039.211507976506!2d-15.442067223876432!3d28.097566208171603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc4095b954df2b5f%3A0x2bec717ab8988008!2sIES%20Ana%20Luisa%20Ben%C3%ADtez!5e0!3m2!1ses!2ses!4v1728057747742!5m2!1ses!2ses"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Modal del Carrito -->
+    <div id="cartModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close" aria-label="Cerrar">&times;</span>
+            <h2>Tu Carrito</h2>
+            <div class="cart-items">
+
+
+            </div>
+            <p style="
+            font-weight: 600;
+            text-align: center;
+            padding: 10px;
+            background-color: #e4d1ed;
+            border-radius: 10px;
+            border: #66666666 solid;
+            justify-content: center;
+        ">Total: <span id="total">  0.00</span>€</p>
+            <button id="emptyCart" class="btn-empty">Vaciar Carrito</button>
+            <button id="closeModal" class="btn-close">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
