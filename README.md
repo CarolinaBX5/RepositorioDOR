@@ -19,7 +19,7 @@ Este proyecto es una plataforma de compras en línea con una interfaz intuitiva 
 ### 📥 Instalación
 1. **Clonar el repositorio**
    ```sh
-   git clone https://github.com/tuusuario/tu-repositorio.git
+   git clone https://github.com/CarolinaBX5/RepositorioDOR.git
    ```
 2. **Abrir el proyecto** en tu editor de código favorito.
 3. **Ejecutar el proyecto**
